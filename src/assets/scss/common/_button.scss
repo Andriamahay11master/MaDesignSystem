@@ -1,0 +1,88 @@
+.btn {
+  padding: 20px 40px;
+  font-family: $rubik;
+  font-size: 20px;
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  line-height: 1;
+  @include max(1440px) {
+    font-size: 15px;
+  }
+  @include max(992px){
+    padding: 20px;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+  &.btn-icon{
+    padding: 0;
+    background: transparent;
+  }
+  &.btn-link {
+    padding: 0;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &.btn-primary {
+    border: 1px solid $color-primary;
+    background: $color-primary;
+    color: $white;
+    &:hover {
+      background-color: darken($color-primary, 10%);
+      border-color: darken($color-primary, 10%);
+    }
+  }
+  &.btn-outline-primary {
+    border: 1px solid $color-secondary;
+    background: $white;
+    color: $color-secondary;
+    &:hover {
+      background-color: $color-secondary;
+      color: $white;
+    }
+  }
+  &.btn-outline-secondary {
+    border: 1px solid $grey;
+    background: $white;
+    color: $grey;
+    &:hover {
+      background: $grey;
+      color: $white;
+    }
+    @media (max-width: 1280px) {
+      font-size: 15px;
+    }
+  }
+  &.btn-arrow{
+    color: $color-primary;
+    padding: 0;
+    i{
+      transition: all 0.4s ease;
+      margin-left: 15px;
+    }
+    &:hover{
+      i{
+        margin-left: 25px;
+      }
+    }
+  }
+  &.btn-top{
+    padding: 20px;
+    color: $white;
+    background: $color-primary;
+    border-radius: 7px;
+    @include max(768px){
+      padding: 15px;
+    }
+    i{
+      display: inline-block;
+      transform: rotate(180deg);
+    }
+    &:hover{
+      background-color: darken($color-primary, 10%);
+      border-color: darken($color-primary, 10%);
+    }
+  }
+}
