@@ -3,10 +3,26 @@ $font-path-playfair: '/assets/fonts/PlayfairDisplay/';
 $font-path-icon: '/assets/fonts/font-icon/';
 
 //Color
-$color-primary: #FF7757;
-$color-primary-2: #FFD2C7;
-$color-secondary: #331811;
-$color-secondary-2: #61291C;
+$color-primary: #02142E;
+$color-secondary: #332812;
+$color-tertiary: #170A33;
+$color-alcohol: #300F28;
+$color-sucess: #031F05;
+$color-warning: #331B00;
+$color-error:#2E0E0E;
+$color-grayscale: #061C3D;
+
+//Palette 500
+$color-primary-500: rgba(#02142E, 0.5);
+$color-secondary-500: rgba(#332812, 0.5);
+$color-tertiary-500: rgba(#170A33, 0.5);
+$color-alcohol-500: rgba(#300F28, 0.5);
+$color-sucess-500: rgba(#031F05, 0.5);
+$color-warning-500: rgba(#331B00, 0.5);
+$color-error-500: rgba(#2E0E0E, 0.5);
+$color-grayscale-500: rgba(#061C3D, 0.5);
+
+
 $color-third: #FFF8F1;
 $white: #FFF;
 $black: #172432;

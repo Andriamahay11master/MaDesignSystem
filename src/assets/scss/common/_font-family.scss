@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-Black.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-Black.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-Black.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -19,8 +19,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-Bold.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-Bold.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-Bold.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -28,8 +28,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-BoldItalic.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-BoldItalic.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-BoldItalic.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -37,8 +37,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-ExtraBold.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-ExtraBold.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-ExtraBold.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -46,8 +46,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-LightItalic.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-LightItalic.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-LightItalic.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -55,8 +55,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-Italic.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-Italic.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-Italic.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -64,8 +64,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-ExtraBoldItalic.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-ExtraBoldItalic.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-ExtraBoldItalic.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-ExtraBoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -73,8 +73,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-Light.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-Light.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-Light.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -82,8 +82,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-MediumItalic.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-MediumItalic.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-MediumItalic.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-MediumItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -91,8 +91,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-SemiBoldItalic.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-SemiBoldItalic.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-SemiBoldItalic.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-SemiBoldItalic.woff') format('woff');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
@@ -100,8 +100,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-Regular.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-Regular.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-Regular.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -109,8 +109,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-SemiBold.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-SemiBold.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-SemiBold.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -118,8 +118,8 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url($font-path-rubik +'Rubik-Medium.woff2') format('woff2'),
-        url($font-path-rubik +'Rubik-Medium.woff') format('woff');
+    src: url($font-path-rubik + 'Rubik-Medium.woff2') format('woff2'),
+        url($font-path-rubik + 'Rubik-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -128,8 +128,8 @@
 //PlayFairDisplay font
 @font-face {
     font-family: 'Playfair Display';
-    src: url($font-path-playfair +'PlayfairDisplay-Black.woff2') format('woff2'),
-        url($font-path-playfair +'PlayfairDisplay-Black.woff') format('woff');
+    src: url($font-path-playfair + 'PlayfairDisplay-Black.woff2') format('woff2'),
+        url($font-path-playfair + 'PlayfairDisplay-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -137,8 +137,8 @@
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url($font-path-playfair +'PlayfairDisplay-BlackItalic.woff2') format('woff2'),
-        url($font-path-playfair +'PlayfairDisplay-BlackItalic.woff') format('woff');
+    src: url($font-path-playfair + 'PlayfairDisplay-BlackItalic.woff2') format('woff2'),
+        url($font-path-playfair + 'PlayfairDisplay-BlackItalic.woff') format('woff');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
@@ -146,8 +146,8 @@
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url($font-path-playfair +'PlayfairDisplay-BoldItalic.woff2') format('woff2'),
-        url($font-path-playfair +'PlayfairDisplay-BoldItalic.woff') format('woff');
+    src: url($font-path-playfair + 'PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+        url($font-path-playfair + 'PlayfairDisplay-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -155,8 +155,8 @@
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url($font-path-playfair +'PlayfairDisplay-Bold.woff2') format('woff2'),
-        url($font-path-playfair +'PlayfairDisplay-Bold.woff') format('woff');
+    src: url($font-path-playfair + 'PlayfairDisplay-Bold.woff2') format('woff2'),
+        url($font-path-playfair + 'PlayfairDisplay-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -164,8 +164,8 @@
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url($font-path-playfair +'PlayfairDisplay-Medium.woff2') format('woff2'),
-        url($font-path-playfair +'PlayfairDisplay-Medium.woff') format('woff');
+    src: url($font-path-playfair + 'PlayfairDisplay-Medium.woff2') format('woff2'),
+        url($font-path-playfair + 'PlayfairDisplay-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -173,8 +173,8 @@
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url($font-path-playfair +'PlayfairDisplay-MediumItalic.woff2') format('woff2'),
-        url($font-path-playfair +'PlayfairDisplay-MediumItalic.woff') format('woff');
+    src: url($font-path-playfair + 'PlayfairDisplay-MediumItalic.woff2') format('woff2'),
+        url($font-path-playfair + 'PlayfairDisplay-MediumItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -182,8 +182,8 @@
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url($font-path-playfair +'PlayfairDisplay-Italic.woff2') format('woff2'),
-        url($font-path-playfair +'PlayfairDisplay-Italic.woff') format('woff');
+    src: url($font-path-playfair + 'PlayfairDisplay-Italic.woff2') format('woff2'),
+        url($font-path-playfair + 'PlayfairDisplay-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -191,8 +191,8 @@
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url($font-path-playfair +'PlayfairDisplay-ExtraBold.woff2') format('woff2'),
-        url($font-path-playfair +'PlayfairDisplay-ExtraBold.woff') format('woff');
+    src: url($font-path-playfair + 'PlayfairDisplay-ExtraBold.woff2') format('woff2'),
+        url($font-path-playfair + 'PlayfairDisplay-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -200,8 +200,8 @@
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url($font-path-playfair +'PlayfairDisplay-SemiBold.woff2') format('woff2'),
-        url($font-path-playfair +'PlayfairDisplay-SemiBold.woff') format('woff');
+    src: url($font-path-playfair + 'PlayfairDisplay-SemiBold.woff2') format('woff2'),
+        url($font-path-playfair + 'PlayfairDisplay-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -209,8 +209,8 @@
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url($font-path-playfair +'PlayfairDisplay-Regular.woff2') format('woff2'),
-        url($font-path-playfair +'PlayfairDisplay-Regular.woff') format('woff');
+    src: url($font-path-playfair + 'PlayfairDisplay-Regular.woff2') format('woff2'),
+        url($font-path-playfair + 'PlayfairDisplay-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -218,8 +218,8 @@
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url($font-path-playfair +'PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
-        url($font-path-playfair +'PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
+    src: url($font-path-playfair + 'PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
+        url($font-path-playfair + 'PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -227,8 +227,8 @@
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url($font-path-playfair +'PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
-        url($font-path-playfair +'PlayfairDisplay-SemiBoldItalic.woff') format('woff');
+    src: url($font-path-playfair + 'PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
+        url($font-path-playfair + 'PlayfairDisplay-SemiBoldItalic.woff') format('woff');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
