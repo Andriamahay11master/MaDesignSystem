@@ -1,7 +1,4 @@
 .page{
-    h1{
-      display: none;
-    }
     .newsletter{
       margin: auto;
       margin-bottom: -109px;
@@ -20,12 +17,9 @@
     }
 
     .section{
-        padding: 140px 0;
+        padding: 50px 0;
         @include max(1440px){
-          padding: 100px 0;
-        }
-        @include max(1200px){
-          padding: 50px 0;
+          padding: 25px 0;
         }
         .section-wrapper{
           display: grid;

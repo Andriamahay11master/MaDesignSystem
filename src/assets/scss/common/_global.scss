@@ -167,11 +167,6 @@ body {
   max-width: 1440px;
   margin: auto;
 
-  @media (max-width: 1600px) {
-    max-width: 1555px;
-    padding: 0 6%;
-  }
-
   @include max(992px) {
     padding: 0 20px;
   }
