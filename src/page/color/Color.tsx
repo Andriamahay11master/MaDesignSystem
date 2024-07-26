@@ -2,11 +2,16 @@ import React from 'react'
 import './color.scss'
 
 export default function Color() {
+    // Function to get the value of a CSS variable
+    const getCssVariableValue = (variable: string) => {
+        return getComputedStyle(document.documentElement).getPropertyValue(variable);
+    };
+    
     const dataPalette = [
         {
             bg: 'Primary',
             name: 'Gray 500',
-            text: '#838E9E'
+            text: getCssVariableValue('--color-primary-500')
         }
     ]
     return (
