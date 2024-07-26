@@ -4,7 +4,7 @@ import { DataPaletteType } from '../../models/DataPaletteType';
 
 export default function Color() {
     const [dataPalette, setDataPalette] = useState([] as DataPaletteType[]);
-
+    
     useEffect(() => {
         // Function to get the value of a CSS variable
         const getCssVariableValue = (variable: string) => {
@@ -16,7 +16,7 @@ export default function Color() {
             {
                 bg: 'Primary',
                 name: 'Gray 500',
-                text: getCssVariableValue('--color-primary-500').trim()
+                text: getCssVariableValue('--color-primary-500')
             }
         ]);
     })
