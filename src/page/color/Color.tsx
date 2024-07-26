@@ -1,19 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './color.scss'
+import { DataPaletteType } from '../../models/DataPaletteType';
 
 export default function Color() {
-    // Function to get the value of a CSS variable
-    const getCssVariableValue = (variable: string) => {
-        return getComputedStyle(document.documentElement).getPropertyValue(variable);
-    };
-    
-    const dataPalette = [
-        {
-            bg: 'Primary',
-            name: 'Gray 500',
-            text: getCssVariableValue('--color-primary-500')
-        }
-    ]
+    const [dataPalette, setDataPalette] = useState([] as DataPaletteType[]);
+
+    useEffect(() => {
+        // Function to get the value of a CSS variable
+        const getCssVariableValue = (variable: string) => {
+            return getComputedStyle(document.documentElement).getPropertyValue(variable);
+        };
+
+        // Retrieve the CSS variable values and set the state
+        setDataPalette([
+            {
+                bg: 'Primary',
+                name: 'Gray 500',
+                text: getCssVariableValue('--color-primary-500').trim()
+            }
+        ]);
+    })
+
     return (
         <div className='page'>
             <div className="section section-color">
