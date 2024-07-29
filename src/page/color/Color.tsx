@@ -1,25 +1,31 @@
 import React, { useEffect, useState } from 'react'
 import './color.scss'
 import { DataPaletteType } from '../../models/DataPaletteType';
+import { hexToRgb, rgbaToHex } from '../../function';
 
 export default function Color() {
     const [dataPalette, setDataPalette] = useState([] as DataPaletteType[]);
     
-    useEffect(() => {
-        // Function to get the value of a CSS variable
-        const getCssVariableValue = (variable: string) => {
-            return getComputedStyle(document.documentElement).getPropertyValue(variable);
-        };
+     // Function to get the value of a CSS variable
+     const getCssVariableValue = (variable: string) => {
+        return getComputedStyle(document.documentElement).getPropertyValue(variable);
+    };
 
-        // Retrieve the CSS variable values and set the state
+    const hexColor = getCssVariableValue('--color-grayscale');
+    const alpha = 0.5;
+    const { r, g, b } = hexToRgb(hexColor);
+    const rgbaHex = rgbaToHex(r, g, b, alpha);
+
+     // Use useEffect to set the dataPalette state
+     useEffect(() => {
         setDataPalette([
             {
                 bg: 'Primary',
                 name: 'Gray 500',
-                text: getCssVariableValue('--color-primary-500')
+                text: rgbaHex 
             }
         ]);
-    })
+    }, []);
 
     return (
         <div className='page'>
