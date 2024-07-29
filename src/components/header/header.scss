@@ -6,6 +6,7 @@
     z-index: 101;
     background: transparent;
     transition: background 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-shadow: 0 3px 10px -7px rgba(0, 0, 0, 0.3);
     &--fixed {
         position: fixed;
         top: 0;
@@ -31,6 +32,31 @@
         background: $color-primary;
         box-shadow: 0 3px 10px -7px rgba(0, 0, 0, 0.3);
         transition: background 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+        .cntlogo {
+            a {
+                color: #FFF;
+            }
+        } 
+        .cntNav{
+            .cntNav-link{
+                color:#FFF;
+                @include max(1200px){
+                    color: unset;
+                }
+                &::after{
+                    background: #FFF;
+                    @include max(1200px){
+                        background: $color-primary;
+                    }
+                }
+            } 
+        }
+        .btnBox .btn-mobile
+        {
+            span{
+                background: #FFF;
+            }
+        }
     }
     .header-reseau-sociaux{
         display: flex;
@@ -165,7 +191,11 @@
             display: flex;
             align-items: center;
             margin-right: 20px;
-            color: #FFF;
+            color: $color-primary;
+            font-size: 30px;
+            @include max(992px){
+                font-size: 20px;
+            }
         }
     }   
     .cntNav{
@@ -186,7 +216,7 @@
         }
         .cntNav-link{
             text-decoration: none;
-            color:$white;
+            color:$color-primary;
             font-size: 20px;
             font-weight: 300;
             line-height: 22px;
@@ -248,7 +278,12 @@
         }
         .btn-mobile
         {
+            &:focus{
+                outline: none;
+                box-shadow: none;
+            }
             span{
+                background: $color-primary;
                 &:first-child{
                     transform-origin: 0% 0%;
                 }
