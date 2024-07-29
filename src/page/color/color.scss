@@ -6,11 +6,21 @@
     grid-template-columns: repeat(4, 1fr);
     column-gap: 24px;
     row-gap: 48px;
+    @include max(1200px){
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 24px;
+    }
+    @include max(768px){
+        grid-template-columns: 100%;
+    }
     .color-box{
         padding: 24px 56px;
         display: flex;
         align-items: center;
         flex-direction: column; 
+        @include max(1200px){
+            padding: 30px;
+        }
         .color-box__bg{
             width: 200px;
             height: 200px;
@@ -20,13 +30,13 @@
         .color-box__name{
             font-size: 24px;
             line-height: 32px;
-            color: $color-grayscale;
+            color: darken($color-grayscale, 90%);
             margin-bottom: 8px;
         }
         .color-box__text{
             font-size: 16px;
             line-height: 24px;
-            color: rgba($color-grayscale, 0.7);
+            color: darken($color-grayscale, 30%);
         }
     }
 }
