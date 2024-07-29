@@ -18,7 +18,7 @@ export default function Color() {
             <div className="section section-color">
                 <div className="container">
                     <div className="color-content-top">
-                        <h1>Colors</h1>
+                        <h1 className='title-h1'>Colors</h1>
                         <p>Color is used to define the main color of the design system. It is used in the header, footer and other areas of the site.</p>    
                     </div>
                     <div className="color-content-bottom">
