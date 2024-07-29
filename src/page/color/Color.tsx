@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import './color.scss'
 import { DataPaletteType } from '../../models/DataPaletteType';
 import { colors } from '../../data/color';
+import Header from '../../components/header/Header';
+import { dataNav } from '../../data/menu';
 export default function Color() {
     const [dataPalette, setDataPalette] = useState([] as DataPaletteType[]);
     
@@ -12,6 +14,7 @@ export default function Color() {
 
     return (
         <div className='page'>
+            <Header linkMenu={dataNav}/>
             <div className="section section-color">
                 <div className="container">
                     <div className="color-content-top">
