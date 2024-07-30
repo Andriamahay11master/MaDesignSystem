@@ -4,6 +4,7 @@ import { DataPaletteType } from '../../models/DataPaletteType';
 import { colors } from '../../data/color';
 import Header from '../../components/header/Header';
 import { dataNav } from '../../data/menu';
+import Top from '../../components/top/Top';
 export default function Color() {
     const [dataPalette, setDataPalette] = useState([] as DataPaletteType[]);
     
@@ -17,10 +18,7 @@ export default function Color() {
             <Header linkMenu={dataNav}/>
             <div className="section section-color">
                 <div className="container">
-                    <div className="color-content-top">
-                        <h1 className='title-h1'>Colors</h1>
-                        <p>Color is used to define the main color of the design system. It is used in the header, footer and other areas of the site.</p>    
-                    </div>
+                    <Top title='Colors' content='Color is used to define the main color of the design system. It is used in the header, footer and other areas of the site.'/>
                     <div className="color-content-bottom">
                         <h2>Color Palette</h2>
                         <div className="color-palette">
