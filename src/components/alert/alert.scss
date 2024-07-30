@@ -7,7 +7,12 @@
     padding: 20px;
     border-radius: 7px;
     box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
-    
+    position: relative;
+    .btn-close{
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
     .icon{
         font-size: 32px;
     }
@@ -21,7 +26,7 @@
         margin-bottom: 0;
     }
     .alert-col{
-        &:last-child{
+        &:last-of-type{
             padding-left: 10px;
         }
     }
@@ -29,7 +34,7 @@
         display: flex;
         padding-top: 10px;
         button{
-            &:last-child{
+            &:not(&.btn-close){
                 margin-left: 10px;
             }
         }
@@ -39,11 +44,21 @@
         .icon{
             color: $color-primary;
         }
+        .btn-close{
+            &:hover{
+                color: $color-primary;
+            }
+        }
     }
     &.alert-sucess{
         border-left: 4px solid $color-sucess;
         .icon{
             color: $color-sucess;
+        }
+        .btn-close{
+            &:hover{
+                color: $color-sucess;
+            }
         }
     }
     &.alert-warning{
@@ -51,20 +66,35 @@
         .icon{
             color: $color-warning;
         }
+        .btn-close{
+            &:hover{
+                color: $color-warning;
+            }
+        }
     }
     &.alert-error{
         border-left: 4px solid $color-error;
         .icon{
             color: $color-error;
         }
+        .btn-close{
+            &:hover{
+                color: $color-error;
+            }
+        }
     }
     &.alert-2{
         align-items: center;
         justify-content: space-between;
+        padding: 20px 30px;
         .icon{
             color: #FFF;
             margin-right: 10px;
             font-size: 25px;
+            &.icon-close{
+                color: darken($color-grayscale, 90%);
+                margin-right: 0;
+            }
         }
         .alert-bouton{
             padding-top: 0;
@@ -91,7 +121,9 @@
             color: #FFF;
         }
         button{
-            box-shadow: 0 0 9px rgba(0, 0, 0, 0.2);
+            &:not(&.btn-close){
+                box-shadow: 0 0 9px rgba(0, 0, 0, 0.2);
+            }
         }
     }
 }

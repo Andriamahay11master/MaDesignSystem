@@ -4,8 +4,9 @@ interface Alert2Props{
     type: string
     title: string
     ctn: string
+    cross?:boolean
 }
-export default function Alert2({type, title, ctn} : Alert2Props){ 
+export default function Alert2({type, title, ctn, cross} : Alert2Props){ 
     return (
         <div className={`alert alert-2 alert-${type}`} >
             <div className="alert-col">
@@ -19,6 +20,7 @@ export default function Alert2({type, title, ctn} : Alert2Props){
                     {ctn && <button className={`btn btn-${type}`}>{ctn}</button>}
                 </div>  
             </div>
+            {cross && <button className='btn btn-close'><i className='icon-close'></i></button>}
         </div>
     );
 }

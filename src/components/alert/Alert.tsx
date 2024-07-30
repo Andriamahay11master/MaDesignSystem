@@ -6,8 +6,9 @@ interface AlertProps{
     content: string
     ctn?: string
     close?:string
+    cross?:boolean
 }
-export default function Alert({type, title, content, ctn, close} : AlertProps){
+export default function Alert({type, title, content, ctn, close, cross} : AlertProps){
     return (
         <div className={`alert alert-${type}`} >
             <div className="alert-col">
@@ -26,6 +27,7 @@ export default function Alert({type, title, content, ctn, close} : AlertProps){
                     </div>
                 )}            
             </div>
+            {cross && <button className='btn btn-close'><i className='icon-close'></i></button>}
         </div>
     );
 }
