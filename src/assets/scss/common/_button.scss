@@ -127,12 +127,14 @@
     display: flex;
     align-items: center;
     background: transparent; 
-    color: darken($color-grayscale, 80%);
     i{
+      color: darken($color-grayscale, 80%);
       font-size: 20px;
     }
     &:hover{
-      color: #FFF;
+      i{
+        color: #FFF;
+      }
     }
   }
 }
