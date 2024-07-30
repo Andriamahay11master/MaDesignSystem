@@ -1,0 +1,11 @@
+@import '../../assets/scss/common/_variable.scss';
+@import '../../assets/scss/common/_mixins.scss';
+
+.list-alert{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    @include max(992px){
+        grid-template-columns: 100%;
+    }
+}
