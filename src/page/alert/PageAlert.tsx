@@ -16,6 +16,10 @@ export default function PageAlert(){
                         <Alert type='sucess' title="This is a success alert" content="Success is a UI component that provides immediate, visually distinct feedback or information to users, categorized by type such as success, error, warning, or info."/>
                         <Alert type="warning" title="This is a warning alert" content="Warning is a UI component that provides immediate, visually distinct feedback or information to users, categorized by type such as success, error, warning, or info."/>
                         <Alert type="error" title="This is a error alert" content="Error is a UI component that provides immediate, visually distinct feedback or information to users, categorized by type such as success, error, warning, or info."/>
+                        <Alert type='info' title='This is a info alert' content='Info is a UI component that provides immediate, visually distinct feedback or information to users, categorized by type such as success, error, warning, or info.' ctn="Check Security" close="Close"/>
+                        <Alert type='sucess' title="This is a success alert" content="Success is a UI component that provides immediate, visually distinct feedback or information to users, categorized by type such as success, error, warning, or info." ctn="View Profile" close="Close"/>
+                        <Alert type="warning" title="This is a warning alert" content="Warning is a UI component that provides immediate, visually distinct feedback or information to users, categorized by type such as success, error, warning, or info." ctn="Forget Password" close="Close"/>
+                        <Alert type="error" title="This is a error alert" content="Error is a UI component that provides immediate, visually distinct feedback or information to users, categorized by type such as success, error, warning, or info." ctn="Upgrade Plans" close="Close"/>
                     </div>
                 </div>
             </div>

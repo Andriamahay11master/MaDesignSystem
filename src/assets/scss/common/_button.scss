@@ -25,7 +25,7 @@
       text-decoration: underline;
     }
   }
-  &.btn-primary {
+  &.btn-primary,&.btn-info {
     border: 1px solid $color-primary;
     background: $color-primary;
     color: $white;
@@ -44,8 +44,8 @@
     }
   }
   &.btn-gray {
-    border: 1px solid $color-grayscale;
-    background: $color-grayscale;
+    border: 1px solid rgba($color-grayscale, 0.5);
+    background: rgba($color-grayscale, 0.5);
     color: #000;
     &:hover {
       background-color: darken($color-grayscale, 10%);
@@ -77,6 +77,15 @@
     &:hover {
       background-color: darken($color-warning, 10%);
       border-color: darken($color-warning, 10%);
+    }
+  }
+  &.btn-error {
+    border: 1px solid $color-error;
+    background: $color-error;
+    color: $white;
+    &:hover {
+      background-color: darken($color-error, 10%);
+      border-color: darken($color-error, 10%);
     }
   }
   &.btn-arrow{

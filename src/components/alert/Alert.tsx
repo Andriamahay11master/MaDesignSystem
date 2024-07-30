@@ -21,7 +21,7 @@ export default function Alert({type, title, content, ctn, close} : AlertProps){
                 
                 {(ctn || close) && (
                     <div className="alert-bouton">
-                        {ctn && <button className="btn btn-primary">{ctn}</button>}
+                        {ctn && <button className={`btn btn-${type}`}>{ctn}</button>}
                         {close && <button className="btn btn-gray">{close}</button>}
                     </div>
                 )}            

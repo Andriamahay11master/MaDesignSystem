@@ -48,4 +48,13 @@
             padding-left: 10px;
         }
     }
+    .alert-bouton{
+        display: flex;
+        padding-top: 10px;
+        button{
+            &:last-child{
+                margin-left: 10px;
+            }
+        }
+    }
 }
