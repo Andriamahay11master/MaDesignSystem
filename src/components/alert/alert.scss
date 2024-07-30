@@ -7,30 +7,7 @@
     padding: 20px;
     border-radius: 7px;
     box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
-    &.alert-info{
-        border-left: 4px solid $color-primary;
-        .icon{
-            color: $color-primary;
-        }
-    }
-    &.alert-sucess{
-        border-left: 4px solid $color-sucess;
-        .icon{
-            color: $color-sucess;
-        }
-    }
-    &.alert-warning{
-        border-left: 4px solid $color-warning;
-        .icon{
-            color: $color-warning;
-        }
-    }
-    &.alert-error{
-        border-left: 4px solid $color-error;
-        .icon{
-            color: $color-error;
-        }
-    }
+    
     .icon{
         font-size: 32px;
     }
@@ -55,6 +32,66 @@
             &:last-child{
                 margin-left: 10px;
             }
+        }
+    }
+    &.alert-info{
+        border-left: 4px solid $color-primary;
+        .icon{
+            color: $color-primary;
+        }
+    }
+    &.alert-sucess{
+        border-left: 4px solid $color-sucess;
+        .icon{
+            color: $color-sucess;
+        }
+    }
+    &.alert-warning{
+        border-left: 4px solid $color-warning;
+        .icon{
+            color: $color-warning;
+        }
+    }
+    &.alert-error{
+        border-left: 4px solid $color-error;
+        .icon{
+            color: $color-error;
+        }
+    }
+    &.alert-2{
+        align-items: center;
+        justify-content: space-between;
+        .icon{
+            color: #FFF;
+            margin-right: 10px;
+            font-size: 25px;
+        }
+        .alert-bouton{
+            padding-top: 0;
+        }
+        &.alert-info{
+            background-color: $color-primary;
+        }
+        &.alert-sucess{
+            background-color: $color-sucess;
+        }
+        &.alert-warning{
+            background-color: $color-warning;
+        }
+        &.alert-error{
+            background-color: $color-error;
+        }
+        .alert-col{
+            display: flex;
+        }
+        .title-h3{
+            margin-bottom: 0;
+            font-size: 20px;
+            font-weight: 700;
+            color: #FFF;
+        }
+        button{
+            box-shadow: 0 0 9px rgba(0, 0, 0, 0.2);
         }
     }
 }
