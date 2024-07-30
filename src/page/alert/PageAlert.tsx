@@ -1,8 +1,9 @@
 import Header from "../../components/header/Header";
 import Top from "../../components/top/Top";
 import { dataNav } from "../../data/menu";
+import './pageAlert.scss'
 
-export default function Alert(){
+export default function PageAlert(){
     return (
         <div className='page'>
             <Header linkMenu={dataNav}/>
