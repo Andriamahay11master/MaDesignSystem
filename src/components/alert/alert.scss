@@ -1,3 +1,32 @@
 @import '../../assets/scss/common/_variable.scss';
 @import '../../assets/scss/common/_mixins.scss';
 
+.alert{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    &.info{
+        border-left: 2px solid $color-primary;
+    }
+    &.success{
+        border-left: 2px solid $color-success;
+    }
+    &.warning{
+        border-left: 2px solid $color-warning;
+    }
+    &.error{
+        border-left: 2px solid $color-error;
+    }
+    .icon{
+        font-size: 32px;
+    }
+    .title-h3{
+        margin-bottom: 6px;
+        color: darken($color-primary, 90%);
+    }
+    p{
+        color: $color-grayscale;
+        font-size: 16px;
+    }
+}
