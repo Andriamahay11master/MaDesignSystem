@@ -4,7 +4,7 @@ import './App.scss'
 import Color from './page/color/Color'
 import PageAlert from './page/alert/PageAlert';
 import PageButton from './page/button/PageButton';
-import Home from './page/home/HOme';
+import Home from './page/home/Home';
 
 
 function App() {
