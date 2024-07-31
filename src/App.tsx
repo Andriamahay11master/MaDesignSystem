@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.scss'
 import Color from './page/color/Color'
 import PageAlert from './page/alert/PageAlert';
+import PageButton from './page/button/PageButton';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path='/color' element={<Color/>}/>
           <Route path='/alert' element={<PageAlert/>}/>
+          <Route path='/button' element={<PageButton/>}/>
         </Routes>
     </Router>
   );
