@@ -60,7 +60,7 @@ export default function Header({linkMenu} : HeaderProps) {
                                 </Link>
                             </div>
                         <div className="btnBox">
-                            <button className={navbarOpen ? "btn btn-icon btn-mobile open" : "btn btn-icon btn-mobile"} onClick={()=>setNavbarOpen(!navbarOpen)} aria-label="open navBar">
+                            <button className={navbarOpen ? "btn btn-burger btn-mobile open" : "btn btn-burger btn-mobile"} onClick={()=>setNavbarOpen(!navbarOpen)} aria-label="open navBar">
                                 <span></span>
                                 <span></span>
                                 <span></span>    
