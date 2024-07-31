@@ -68,6 +68,34 @@ export default function PageButton(){
                             <button className="btn btn-outline-sucess btn-icon"><span>Sucess</span> <i className="icon-long-arrow"></i></button>
                             <button className="btn btn-outline-sucess disabled">Sucess</button> 
                         </div>
+                        <div className="list-item">
+                            <button className="btn btn-warning">Warning</button>
+                            <button className="btn btn-warning btn-darken">Warning</button>
+                            <button className="btn btn-warning btn-loading">Warning</button>
+                            <button className="btn btn-warning btn-icon"><span>Warning</span> <i className="icon-long-arrow"></i></button>
+                            <button className="btn btn-warning disabled">Warning</button> 
+                        </div>
+                        <div className="list-item">
+                            <button className="btn btn-outline-warning">Warning</button>
+                            <button className="btn btn-outline-warning btn-darken">Warning</button>
+                            <button className="btn btn-outline-warning btn-loading">Warning</button>
+                            <button className="btn btn-outline-warning btn-icon"><span>Warning</span> <i className="icon-long-arrow"></i></button>
+                            <button className="btn btn-outline-warning disabled">Warning</button> 
+                        </div>
+                        <div className="list-item">
+                            <button className="btn btn-error">Error</button>
+                            <button className="btn btn-error btn-darken">Error</button>
+                            <button className="btn btn-error btn-loading">Error</button>
+                            <button className="btn btn-error btn-icon"><span>Error</span> <i className="icon-long-arrow"></i></button>
+                            <button className="btn btn-error disabled">Error</button> 
+                        </div>
+                        <div className="list-item">
+                            <button className="btn btn-outline-error">Error</button>
+                            <button className="btn btn-outline-error btn-darken">Error</button>
+                            <button className="btn btn-outline-error btn-loading">Error</button>
+                            <button className="btn btn-outline-error btn-icon"><span>Error</span> <i className="icon-long-arrow"></i></button>
+                            <button className="btn btn-outline-error disabled">Error</button> 
+                        </div>
                     </div>
                 </div>
             </div>

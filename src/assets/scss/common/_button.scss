@@ -218,6 +218,34 @@
       background-color: darken($color-warning, 10%);
       border-color: darken($color-warning, 10%);
     }
+    &.disabled{
+      background-color: lighten($color-warning, 10%);
+      border-color: lighten($color-warning, 10%);
+    }  
+    &.btn-darken{
+      background-color: darken($color-warning, 20%);
+      &:hover {
+        background-color: lighten($color-warning, 10%);
+        border-color: lighten($color-warning, 10%);
+      }
+    }
+  }
+  &.btn-outline-warning{
+    border: 1px solid $color-warning;
+    background: $white;
+    color: $color-warning;
+    &.disabled{
+      background-color: lighten($color-warning, 30%);
+      border-color: lighten($color-warning, 30%);
+    }  
+    &.btn-darken{
+      background-color: rgba($color-warning, 0.2);
+      &:hover {
+        background-color: darken($color-warning, 10%);
+        border-color: darken($color-warning, 10%);
+        color: #FFF;
+      }
+    }
   }
   &.btn-error {
     border: 1px solid $color-error;
@@ -226,6 +254,34 @@
     &:hover {
       background-color: darken($color-error, 10%);
       border-color: darken($color-error, 10%);
+    }
+    &.disabled{
+      background-color: lighten($color-error, 10%);
+      border-color: lighten($color-error, 10%);
+    }  
+    &.btn-darken{
+      background-color: darken($color-error, 20%);
+      &:hover {
+        background-color: lighten($color-error, 10%);
+        border-color: lighten($color-error, 10%);
+      }
+    }
+  }
+  &.btn-outline-error{
+    border: 1px solid $color-error;
+    background: $white;
+    color: $color-error;
+    &.disabled{
+      background-color: lighten($color-error, 30%);
+      border-color: lighten($color-error, 30%);
+    }  
+    &.btn-darken{
+      background-color: rgba($color-error, 0.2);
+      &:hover {
+        background-color: darken($color-error, 10%);
+        border-color: darken($color-error, 10%);
+        color: #FFF;
+      }
     }
   }
   &.btn-arrow{
