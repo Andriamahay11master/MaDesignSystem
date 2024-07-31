@@ -73,6 +73,10 @@
     }  
     &.btn-darken{
       background-color: darken($color-primary, 20%);
+      &:hover {
+        background-color: lighten($color-primary, 10%);
+        border-color: lighten($color-primary, 10%);
+      }
     }
   }
   &.btn-outline-primary {
@@ -100,6 +104,17 @@
     &:hover {
       background-color: darken($color-secondary, 10%);
       border-color: darken($color-secondary, 10%);
+    }
+    &.disabled{
+      background-color: lighten($color-secondary, 10%);
+      border-color: lighten($color-secondary, 10%);
+    }  
+    &.btn-darken{
+      background-color: darken($color-secondary, 20%);
+      &:hover {
+        background-color: lighten($color-secondary, 10%);
+        border-color: lighten($color-secondary, 10%);
+      }
     }
   }
   &.btn-sucess {
