@@ -11,6 +11,22 @@ export default function PageButton(){
             <div className="section section-alert">
                 <div className="container">
                     <Top title='Component/Button' content='A button is a clickable element used to trigger an action or event. It can be used to submit forms, navigate to different sections, or perform various tasks within an application. Buttons should be clearly labeled to indicate their function and should provide immediate visual feedback upon interaction.'/>
+                    <div className="list-button">
+                        <div className="list-item">
+                            <button className="btn btn-primary">Primary</button>
+                            <button className="btn btn-primary btn-darken">Primary</button>
+                            <button className="btn btn-primary btn-loading">Primary</button>
+                            <button className="btn btn-primary btn-icon"><span>Primary</span> <i className="icon-long-arrow"></i></button>
+                            <button className="btn btn-primary disabled">Primary</button> 
+                        </div>
+                        <div className="list-item">
+                            <button className="btn btn-secondary">Primary</button>
+                            <button className="btn btn-secondary btn-darken">Primary</button>
+                            <button className="btn btn-secondary btn-loading">Primary</button>
+                            <button className="btn btn-secondary btn-icon"><span>Primary</span> <i className="icon-long-arrow"></i></button>
+                            <button className="btn btn-secondary disabled">Primary</button> 
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

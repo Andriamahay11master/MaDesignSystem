@@ -1,2 +1,10 @@
 @import '../../assets/scss/common/_variable.scss';
 @import '../../assets/scss/common/_mixins.scss';
+
+.list-button{
+    .list-item{
+        display: flex;
+        gap: 5px;
+        margin-bottom: 5px;
+    }
+}

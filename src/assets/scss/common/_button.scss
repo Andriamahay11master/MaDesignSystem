@@ -1,3 +1,4 @@
+
 .btn {
   padding: 20px;
   font-family: $rubik;
@@ -20,13 +21,42 @@
     cursor: pointer;
   }
   &.btn-icon{
-    padding: 0;
-    background: transparent;
+    display: inline-flex;
+    align-items: center;
+    i {
+      display: inline-block;
+      margin-left: 10px;
+      transition: all 0.4s ease-in-out;
+    }
+    &:hover{
+      i{
+        margin-left: 15px;
+      }
+    }
+  }
+  &.disabled{
+    pointer-events: none;
   }
   &.btn-link {
     padding: 0;
     &:hover {
       text-decoration: underline;
+    }
+  }
+  &.btn-loading{
+    pointer-events: none;
+    position: relative;
+    padding-left: 50px;
+    &:before{
+      content: "\e97a";
+      font-family: 'icomoon';
+      font-size: 18px;
+      margin-right: 10px;
+      animation: spin 1s linear infinite;
+       display: inline-block;
+       position: absolute;
+       top: 18px;
+       left: 25px;
     }
   }
   &.btn-primary,&.btn-info {
@@ -36,6 +66,13 @@
     &:hover {
       background-color: darken($color-primary, 10%);
       border-color: darken($color-primary, 10%);
+    }
+    &.disabled{
+      background-color: lighten($color-primary, 40%);
+      border-color: lighten($color-primary, 40%);
+    }  
+    &.btn-darken{
+      background-color: darken($color-primary, 20%);
     }
   }
   &.btn-outline-primary {
