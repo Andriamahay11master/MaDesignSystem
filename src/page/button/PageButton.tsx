@@ -20,11 +20,25 @@ export default function PageButton(){
                             <button className="btn btn-primary disabled">Primary</button> 
                         </div>
                         <div className="list-item">
+                            <button className="btn btn-outline-primary">Primary</button>
+                            <button className="btn btn-outline-primary btn-darken">Primary</button>
+                            <button className="btn btn-outline-primary btn-loading">Primary</button>
+                            <button className="btn btn-outline-primary btn-icon"><span>Primary</span> <i className="icon-long-arrow"></i></button>
+                            <button className="btn btn-outline-primary disabled">Primary</button> 
+                        </div>
+                        <div className="list-item">
                             <button className="btn btn-secondary">Secondary</button>
                             <button className="btn btn-secondary btn-darken">Secondary</button>
                             <button className="btn btn-secondary btn-loading">Secondary</button>
                             <button className="btn btn-secondary btn-icon"><span>Secondary</span> <i className="icon-long-arrow"></i></button>
                             <button className="btn btn-secondary disabled">Secondary</button> 
+                        </div>
+                        <div className="list-item">
+                            <button className="btn btn-outline-secondary">Secondary</button>
+                            <button className="btn btn-outline-secondary btn-darken">Secondary</button>
+                            <button className="btn btn-outline-secondary btn-loading">Secondary</button>
+                            <button className="btn btn-outline-secondary btn-icon"><span>Secondary</span> <i className="icon-long-arrow"></i></button>
+                            <button className="btn btn-outline-secondary disabled">Secondary</button> 
                         </div>
                     </div>
                 </div>
