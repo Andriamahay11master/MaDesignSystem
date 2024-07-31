@@ -107,6 +107,34 @@
       background-color: darken($color-grayscale, 10%);
       border-color: darken($color-grayscale, 10%);
     }
+    &.disabled{
+      background-color: lighten($color-grayscale, 10%);
+      border-color: lighten($color-grayscale, 10%);
+    }  
+    &.btn-darken{
+      background-color: darken($color-grayscale, 20%);
+      &:hover {
+        background-color: lighten($color-grayscale, 10%);
+        border-color: lighten($color-grayscale, 10%);
+      }
+    }
+  }
+  &.btn-outline-gray{
+    border: 1px solid $color-grayscale;
+    background: $white;
+    color: $color-grayscale;
+    &.disabled{
+      background-color: lighten($color-grayscale, 30%);
+      border-color: lighten($color-grayscale, 30%);
+    }  
+    &.btn-darken{
+      background-color: rgba($color-grayscale, 0.2);
+      &:hover {
+        background-color: darken($color-grayscale, 10%);
+        border-color: darken($color-grayscale, 10%);
+        color: #FFF;
+      }
+    }
   }
   &.btn-secondary {
     border: 1px solid $color-secondary;
@@ -152,6 +180,34 @@
     &:hover {
       background-color: darken($color-sucess, 10%);
       border-color: darken($color-sucess, 10%);
+    }
+    &.disabled{
+      background-color: lighten($color-sucess, 10%);
+      border-color: lighten($color-sucess, 10%);
+    }  
+    &.btn-darken{
+      background-color: darken($color-sucess, 20%);
+      &:hover {
+        background-color: lighten($color-sucess, 10%);
+        border-color: lighten($color-sucess, 10%);
+      }
+    }
+  }
+  &.btn-outline-sucess{
+    border: 1px solid $color-sucess;
+    background: $white;
+    color: $color-sucess;
+    &.disabled{
+      background-color: lighten($color-sucess, 30%);
+      border-color: lighten($color-sucess, 30%);
+    }  
+    &.btn-darken{
+      background-color: rgba($color-sucess, 0.2);
+      &:hover {
+        background-color: darken($color-sucess, 10%);
+        border-color: darken($color-sucess, 10%);
+        color: #FFF;
+      }
     }
   }
   &.btn-warning {

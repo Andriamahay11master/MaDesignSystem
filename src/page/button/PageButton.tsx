@@ -40,6 +40,34 @@ export default function PageButton(){
                             <button className="btn btn-outline-secondary btn-icon"><span>Secondary</span> <i className="icon-long-arrow"></i></button>
                             <button className="btn btn-outline-secondary disabled">Secondary</button> 
                         </div>
+                        <div className="list-item">
+                            <button className="btn btn-gray">Grayscale</button>
+                            <button className="btn btn-gray btn-darken">Grayscale</button>
+                            <button className="btn btn-gray btn-loading">Grayscale</button>
+                            <button className="btn btn-gray btn-icon"><span>Grayscale</span> <i className="icon-long-arrow"></i></button>
+                            <button className="btn btn-gray disabled">Grayscale</button> 
+                        </div>
+                        <div className="list-item">
+                            <button className="btn btn-outline-gray">Grayscale</button>
+                            <button className="btn btn-outline-gray btn-darken">Grayscale</button>
+                            <button className="btn btn-outline-gray btn-loading">Grayscale</button>
+                            <button className="btn btn-outline-gray btn-icon"><span>Grayscale</span> <i className="icon-long-arrow"></i></button>
+                            <button className="btn btn-outline-gray disabled">Grayscale</button> 
+                        </div>
+                        <div className="list-item">
+                            <button className="btn btn-sucess">Sucess</button>
+                            <button className="btn btn-sucess btn-darken">Sucess</button>
+                            <button className="btn btn-sucess btn-loading">Sucess</button>
+                            <button className="btn btn-sucess btn-icon"><span>Sucess</span> <i className="icon-long-arrow"></i></button>
+                            <button className="btn btn-sucess disabled">Sucess</button> 
+                        </div>
+                        <div className="list-item">
+                            <button className="btn btn-outline-sucess">Sucess</button>
+                            <button className="btn btn-outline-sucess btn-darken">Sucess</button>
+                            <button className="btn btn-outline-sucess btn-loading">Sucess</button>
+                            <button className="btn btn-outline-sucess btn-icon"><span>Sucess</span> <i className="icon-long-arrow"></i></button>
+                            <button className="btn btn-outline-sucess disabled">Sucess</button> 
+                        </div>
                     </div>
                 </div>
             </div>
