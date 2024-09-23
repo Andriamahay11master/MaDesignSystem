@@ -1,30 +1,59 @@
-# React + TypeScript + Vite
+# Design System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cette application est un design system permettant de développer plus rapidement la partie front d'un projet classique, développée avec **React JS**, **TypeScript**, **Vite**, **HTML** et **SCSS**.
 
-Currently, two official plugins are available:
+## Fonctionnalités principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Suivi des ventes :** Visualisez le nombre d'articles vendus, non vendus, les bénéfices, et les montants des ventes par mois pour une année donnée.
+- **Ajout d'articles :** Ajoutez facilement de nouveaux articles à vendre, avec gestion des quantités et des tailles.
+- **Filtres avancés :** Filtrez les articles par état (vendu ou non vendu), par mois et année.
+- **Export de données :** Exportez les listes d'articles et les rapports de ventes en fichiers CSV ou Excel.
+- **Interface utilisateur réactive :** Design adapté pour les appareils mobiles et de bureau, avec un style moderne.
 
-## Expanding the ESLint configuration
+## Technologies utilisées
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React JS & TypeScript :** Pour une architecture modulaire et un typage strict.
+- **Vite JS :** Utilisé pour le build rapide et le développement avec Hot Module Replacement (HMR).
+- **SCSS :** Pour une gestion avancée des styles avec un design réactif.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation et démarrage
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. Clonez le dépôt :
+
+```bash
+git clone https://github.com/Andriamahay11master/MaDesignSystem.git
+cd MaDesignSystem
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Installez les dépendances :
+
+```bash
+npm install
+```
+
+3. Lancez l'application en mode développement :
+
+```bash
+npm run dev
+```
+
+4. Accédez à l'application sur `http://localhost:5173`.
+
+## Structure du projet
+
+- **src/** : Contient le code source de l'application.
+  - **components/** : Composants réutilisables tels que les formulaires, alertes, tableaux, etc.
+  - **pages/** : Pages principales de l'application.
+  - **assets/** : Fichiers SCSS pour la gestion des styles globaux et des composants.
+  - **models/** : Pour le typage des données.
+  - **data/** : Pour les données statiques utilisés par l'application.
+
+## Commandes utiles
+
+- **`npm run dev`** : Démarre l'application en mode développement.
+- **`npm run build`** : Génère un build de production.
+- **`npm run lint`** : Vérifie et corrige le code avec ESLint.
+
+## Contribution
+
+Les contributions sont les bienvenues. Si vous souhaitez contribuer, ouvrez un problème ou une pull request.
